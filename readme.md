@@ -156,12 +156,7 @@ npm start
 ```
 
 The index.js is where we write our code. In our example, we will insert a bootstrap navbar on top of the page.
-
----
-
-Talk about PR changes here
-
----
+We will call the mainApp function inside the ShowUI method of the PR. Notice that mainApp can have access to the pm object. 
 
 Fingers crossed, everything worked well and you should be able to see that bootstrap navbar on top of the page! Making changes while in development should update the UI!
 When you're done with development, run the build command
